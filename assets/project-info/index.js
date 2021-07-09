@@ -28,7 +28,7 @@ const modalContent = `
 <ul>
 	<li><a title="On my website" href="https://flip-cards.iamdanial.com/">On my website</a></li>
 	<li><a title="On GitHub" href="https://github.com/DanialZahid/Flip-Cards/">On GitHub</a></li>
-	<li><a title="On CodePen" href="https://codepen.io/danialzahid/">On CodePen</a></li>
+	<li><a title="On CodePen" href="https://codepen.io/danialzahid/pen/YzVGKaQ/">On CodePen</a></li>
 </ul>
 
 <h2>External Assets</h2>

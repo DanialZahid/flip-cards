@@ -6,7 +6,7 @@ Responsive flip cards.
 
 - [On my website](https://flip-cards.iamdanial.com/)
 - [On GitHub](https://github.com/DanialZahid/Flip-Cards/)
-- [CodePen](https://codepen.io/danialzahid/)
+- [CodePen](https://codepen.io/danialzahid/pen/YzVGKaQ/)
 
 ## License
 
