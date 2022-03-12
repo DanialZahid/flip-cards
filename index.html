@@ -1,90 +1,117 @@
-<!doctype html>
-<html lang="en-US">
+<!DOCTYPE html>
+<html lang="en">
 
 <head>
 	<meta charset="utf-8">
+
 	<title>Flip Cards</title>
 
-	<meta name="description" content="Responsive flip cards.">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<meta name="theme-color" content="#333">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="theme-color" content="#325167">
+
+	<!-- Open Graph meta tags -->
+
 	<meta property="og:title" content="Flip Cards">
+	<meta property="og:description"
+		content="A simple app which shows an image on the front side and content on the back side of the card or box when hovered over.">
+	<meta property="og:image" content="https://flip-cards.iamdanial.com/assets/images/banner.jpg">
 	<meta property="og:type" content="website">
 	<meta property="og:url" content="https://flip-cards.iamdanial.com/">
-	<meta property="og:image" content="./assets/images/logo-32.jpg">
+	<meta name="author" content="Danial Zahid">
 
-	<link rel="shortcut icon" href="./assets/images/logo-32.jpg">
-	<link rel="apple-touch-icon" href="./assets/images/logo-32.jpg">
+	<!-- Open Graph meta tags for Twitter -->
+
+	<meta name="twitter:card" content="summary_large_image">
+	<meta name="twitter:site" content="@Danial_Zahid10">
+	<meta name="twitter:creator" content="@Danial_Zahid10">
+	<meta name="twitter:title" content="Flip Cards">
+	<meta name="twitter:description"
+		content="A simple app which shows an image on the front side and content on the back side of the card or box when hovered over.">
+	<meta name="twitter:image" content="https://flip-cards.iamdanial.com/assets/images/banner.jpg">
+
+	<!-- Assets -->
+
+	<link rel="icon" href="./assets/images/logo.jpg">
+	<link rel="apple-touch-icon" href="./assets/images/logo.jpg">
+
 	<link rel="stylesheet" href="./assets/css/index.css">
 	<link rel="stylesheet" href="./assets/project-info/index.css">
+
 	<script defer src="./assets/project-info/index.js"></script>
 </head>
 
 <body>
-<main>
+	<main>
 
-<h1>Flip Cards</h1>
+		<h1>Flip Cards</h1>
 
-<section class="cards-wrapper">
+		<section class="cards-wrapper">
 
-<div class="card">
-	<div class="card-front">
-		<picture>
-			<source type="image/webp" srcset="./assets/images/image-01.webp">
-			<img loading="lazy" src="./assets/images/image-01.jpg" alt="Image 01" width="600" height="600">
-		</picture>
-	</div>
+			<div class="card">
+				<div class="card-front">
+					<picture>
+						<source type="image/webp" srcset="./assets/images/image-01.webp">
+						<img loading="lazy" src="./assets/images/image-01.jpg" alt="Image 01" width="600" height="600">
+					</picture>
+				</div>
 
-	<div class="card-back">
-		<div class="card-back-content">
-			<h2>Lorem Ipsum</h2>
+				<div class="card-back">
+					<div class="card-back-content">
+						<h2>Lorem Ipsum</h2>
 
-			<p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ullam aspernatur aut dicta numquam fuga ipsum incidunt officia magnam nam officiis dolorum pariatur sequi, totam at tempora, vero expedita nisi itaque?</p>
+						<p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ullam aspernatur aut dicta numquam fuga ipsum
+							incidunt officia magnam nam officiis dolorum pariatur sequi, totam at tempora, vero expedita nisi itaque?
+						</p>
 
-			<a class="button" title="Lorem Ipsum" href="#">Lorem Ipsum</a>
-		</div>
-	</div>
-</div>
+						<a class="button" title="Lorem Ipsum" href="#">Lorem Ipsum</a>
+					</div>
+				</div>
+			</div>
 
-<div class="card">
-	<div class="card-front">
-		<picture>
-			<source type="image/webp" srcset="./assets/images/image-02.webp">
-			<img loading="lazy" src="./assets/images/image-02.jpg" alt="Image 02" width="600" height="600">
-		</picture>
-	</div>
+			<div class="card">
+				<div class="card-front">
+					<picture>
+						<source type="image/webp" srcset="./assets/images/image-02.webp">
+						<img loading="lazy" src="./assets/images/image-02.jpg" alt="Image 02" width="600" height="600">
+					</picture>
+				</div>
 
-	<div class="card-back">
-		<div class="card-back-content">
-			<h2>Lorem Ipsum</h2>
+				<div class="card-back">
+					<div class="card-back-content">
+						<h2>Lorem Ipsum</h2>
 
-			<p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ullam aspernatur aut dicta numquam fuga ipsum incidunt officia magnam nam officiis dolorum pariatur sequi, totam at tempora, vero expedita nisi itaque?</p>
+						<p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ullam aspernatur aut dicta numquam fuga ipsum
+							incidunt officia magnam nam officiis dolorum pariatur sequi, totam at tempora, vero expedita nisi itaque?
+						</p>
 
-			<a class="button" title="Lorem Ipsum" href="#">Lorem Ipsum</a>
-		</div>
-	</div>
-</div>
+						<a class="button" title="Lorem Ipsum" href="#">Lorem Ipsum</a>
+					</div>
+				</div>
+			</div>
 
-<div class="card">
-	<div class="card-front">
-		<picture>
-			<source type="image/webp" srcset="./assets/images/image-03.webp">
-			<img loading="lazy" src="./assets/images/image-03.jpg" alt="Image 03" width="600" height="600">
-		</picture>
-	</div>
+			<div class="card">
+				<div class="card-front">
+					<picture>
+						<source type="image/webp" srcset="./assets/images/image-03.webp">
+						<img loading="lazy" src="./assets/images/image-03.jpg" alt="Image 03" width="600" height="600">
+					</picture>
+				</div>
 
-	<div class="card-back">
-		<div class="card-back-content">
-			<h2>Lorem Ipsum</h2>
+				<div class="card-back">
+					<div class="card-back-content">
+						<h2>Lorem Ipsum</h2>
 
-			<p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ullam aspernatur aut dicta numquam fuga ipsum incidunt officia magnam nam officiis dolorum pariatur sequi, totam at tempora, vero expedita nisi itaque?</p>
+						<p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ullam aspernatur aut dicta numquam fuga ipsum
+							incidunt officia magnam nam officiis dolorum pariatur sequi, totam at tempora, vero expedita nisi itaque?
+						</p>
 
-			<a class="button" title="Lorem Ipsum" href="#">Lorem Ipsum</a>
-		</div>
-	</div>
-</div>
+						<a class="button" title="Lorem Ipsum" href="#">Lorem Ipsum</a>
+					</div>
+				</div>
+			</div>
 
-</section>
-</main>
+		</section>
+	</main>
 </body>
+
 </html>
