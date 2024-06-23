@@ -37,7 +37,7 @@ const piModalContent = `
 		<p>A simple app which shows an image on the front side and content on the back side of the card or box when hovered over.</p>
 
 		<ul>
-			<li><a title="View on Vercel" href="https://flip-cards.iamdanial.com/">View on Vercel</a></li>
+			<li><a title="View on Vercel" href="https://flip-cards-dz.vercel.app/">View on Vercel</a></li>
 			<li><a title="View on GitHub" href="https://github.com/DanialZahid/flip-cards/">View on GitHub</a></li>
 			<li><a title="View on CodePen" href="https://codepen.io/danialzahid/pen/YzVGKaQ/">View on CodePen</a></li>
 		</ul>
