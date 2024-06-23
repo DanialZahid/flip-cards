@@ -4,9 +4,9 @@
 
 Responsive flip cards.
 
-- [On my website](https://flip-cards.iamdanial.com/)
-- [On GitHub](https://github.com/DanialZahid/Flip-Cards/)
-- [On CodePen](https://codepen.io/danialzahid/pen/YzVGKaQ/)
+- [View on Vercel](https://flip-cards-dz.vercel.app/)
+- [View on GitHub](https://github.com/DanialZahid/flip-cards/)
+- [View on CodePen](https://codepen.io/danialzahid/pen/YzVGKaQ/)
 
 ## License
 

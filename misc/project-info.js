@@ -37,20 +37,14 @@ const piModalContent = `
 		<p>A simple app which shows an image on the front side and content on the back side of the card or box when hovered over.</p>
 
 		<ul>
-			<li><a title="On my website" href="https://flip-cards.iamdanial.com/">On my website</a></li>
-			<li><a title="On GitHub" href="https://github.com/DanialZahid/Flip-Cards/">On GitHub</a></li>
-			<li><a title="On CodePen" href="https://codepen.io/danialzahid/pen/YzVGKaQ/">On CodePen</a></li>
-		</ul>
-
-		<h3>External Assets</h3>
-
-		<ul>
-			<li><a title="Unsplash" href="https://unsplash.com/">Unsplash</a> — Images</li>
+			<li><a title="View on Vercel" href="https://flip-cards.iamdanial.com/">View on Vercel</a></li>
+			<li><a title="View on GitHub" href="https://github.com/DanialZahid/flip-cards/">View on GitHub</a></li>
+			<li><a title="View on CodePen" href="https://codepen.io/danialzahid/pen/YzVGKaQ/">View on CodePen</a></li>
 		</ul>
 
 		<h3>License</h3>
 
-		<p><a title="MIT" href="https://github.com/DanialZahid/Flip-Cards/blob/main/LICENSE/">MIT</a></p>
+		<p><a title="MIT" href="https://github.com/DanialZahid/flip-cards/blob/main/LICENSE">MIT</a></p>
 
 	</div>
 </div>
@@ -66,22 +60,22 @@ piFloat.addEventListener("click", piDisplay); // Display modal when clicked on f
 // Display modal function.
 
 function piDisplay() {
-  piBody.append(piModal);
-  piModal.classList.add("pi-modal-display");
-  piBody.setAttribute("class", "pi-overflow-hidden"); // Hide browser scroll when modal is shown.
-  const piModalCloseBtn = document.querySelector(".pi-icon-close"); // Close modal when clicked on close icon.
-  piModalCloseBtn.addEventListener("click", piRemove);
+	piBody.append(piModal);
+	piModal.classList.add("pi-modal-display");
+	piBody.setAttribute("class", "pi-overflow-hidden"); // Hide browser scroll when modal is shown.
+	const piModalCloseBtn = document.querySelector(".pi-icon-close"); // Close modal when clicked on close icon.
+	piModalCloseBtn.addEventListener("click", piRemove);
 }
 
 // Remove modal function.
 
 function piRemove() {
-  piModal.classList.remove("pi-modal-display");
-  piBody.removeAttribute("class");
+	piModal.classList.remove("pi-modal-display");
+	piBody.removeAttribute("class");
 
-  setTimeout(function () {
-    piModal.remove();
-  }, 500); // Wait .5s before removing modal so it completes its animation.
+	setTimeout(function () {
+		piModal.remove();
+	}, 500); // Wait .5s before removing modal so it completes its animation.
 }
 
 /* Attributions
